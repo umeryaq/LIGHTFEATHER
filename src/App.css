@@ -1,0 +1,97 @@
+.form{
+  width: 90%;
+}
+.error{
+  color: red;
+  font-style: italic;
+  font-size: small;
+  position: absolute;
+  top: 50px;
+  margin-bottom:  0px !important;
+}
+.control .form-control{
+  border-radius: 0;
+}
+
+.nf{
+  background-color: rgb(66, 103, 124);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerBody{
+  background-color: rgb(166, 183, 194);
+  min-height: 100vh;
+  height: 100%;
+  padding-bottom: 20px;
+  
+
+}
+ .control {
+  position: relative !important;
+}
+.primary .btn{
+  background-color: rgb(66, 103, 124);
+  border: none;
+  border-radius: 0;
+  width: 140px;
+}
+
+.primary{
+  margin-top: 30px;
+
+}
+
+.label{
+  text-align: left;
+  color: rgb(90, 89, 89);
+}
+.row{
+  padding: 40px 0px 0px 0px;
+  box-sizing: border-box;
+
+}
+
+.checkbox{
+outline: 2px solid gray;
+width: 15px;
+height: 15px;
+}
+.select{
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.labelPading{
+  padding-top: 40px;
+
+}
+.labelPading2{
+  padding-top: 80px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .labelPading2{
+    padding-top: 10px;
+  
+  }
+  .form{
+    width: 100%;
+  }
+  .select{
+    padding-top: 10px;
+  }
+  .error{
+    position: absolute;
+    top: 40px;
+    margin-bottom:  0px !important;
+  }
+  .ln{
+    padding-top: 20px;
+  }
+  .primary .btn{
+    width: 80px;
+  }
+  
+}
